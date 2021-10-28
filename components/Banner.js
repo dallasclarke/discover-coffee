@@ -2,7 +2,7 @@ import styles from "./banner.module.css";
 
 function Banner(props) {
   return (
-    <div className={StyleSheet.container}>
+    <div className={styles.container}>
       <h1 className={styles.title}>
         <span className={styles.title1}>Coffee</span>
         <span className={styles.title2}>Connoisseur</span>
